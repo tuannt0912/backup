@@ -1,12 +1,12 @@
 #!/bin/bash
 cd /home/tuannt
- wget http://www.datsi.fi.upm.es/~frosal/sources/shc-3.8.9b.tgz
- tar xvfz shc-3.8.9b.tgz
- cd shc-3.8.*
- make
- cd /home/tuannt/shc-3.8.9b
- ./shc -f /root/autoscript/backup.sh
- mv /root/autoscript/backup.sh /home/tuannt
- mv /root/autoscript/backup.sh.x /root/autoscript/backup.sh
- rm -rf /root/autoscript/backup.sh.x.c
+wget http://www.datsi.fi.upm.es/~frosal/sources/shc-3.8.9b.tgz
+tar xvfz shc-3.8.9b.tgz
+cd shc-3.8.*
+make
+cd /home/tuannt/shc-3.8.9b
+./shc -f /root/autoscript/backup.sh
+mv /root/autoscript/backup.sh /home/tuannt
+mv /root/autoscript/backup.sh.x /root/autoscript/backup.sh
+rm -rf /root/autoscript/backup.sh.x.c
  
