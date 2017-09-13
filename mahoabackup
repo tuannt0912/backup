@@ -9,4 +9,4 @@ cd /home/tuannt/shc-3.8.9b
 mv /root/autoscript/backup.sh /home/tuannt
 mv /root/autoscript/backup.sh.x /root/autoscript/backup.sh
 rm -rf /root/autoscript/backup.sh.x.c
-rm -rf /home/tuannt/shc-3.8.9b/shc-3.8.9b.tgz
+rm -rf /home/tuannt/shc-3.8.9b.tgz
